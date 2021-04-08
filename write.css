@@ -1,0 +1,261 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-size: 15px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+.site-title a {
+	text-decoration: none;
+  font-size: 36px;
+  color: #111;
+  text-decoration: none;
+}
+
+.menu-bar a {
+  text-decoration: none;
+  color: #111;
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+li {
+	list-style: none;
+	padding:20px;
+}
+
+.site {
+
+	padding: 0 200px;
+}
+
+.site-tema {
+	color: gray;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.main {
+	display: flex;
+	justify-content: space-between;
+  padding-bottom: 100px;
+	padding-top: 65px;
+}
+
+.menu-bar {
+  font-size: 17px;
+  color: #111;
+}
+
+.menu-bar2 {
+	padding-left: 200px;
+}
+
+.menu-list {
+	padding-top: 20px;
+}
+
+.submenu {
+  visibility: hidden;
+}
+
+.message {
+	font-size: 1.6rem;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	color: gray;
+}
+
+.intro-section {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+
+.intro-section__day {
+  color: #666;
+}
+
+.intro-section__tema {
+	font-size: 22px;
+}
+
+.intro-section__txt {
+	width: 680px;
+	padding-top: 20px;
+  color: #666;
+}
+
+.main-content {
+  padding-bottom: 100px;
+}
+
+footer img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.profile-area {
+  padding :100px 0;
+  display: flex;
+  justify-content: space-between;
+  border-top :solid 1px #666;
+  border-bottom :solid 1px #666;
+
+}
+
+.profilewidget {
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profilewidget-profile {
+  padding-right: 20px;
+}
+
+.profilewidget-name {
+  padding: 20px 0;
+}
+
+.profilewidget-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profilewidget-link a {
+  color: gray;
+}
+
+.widget-2 {
+  width: 200px;
+}
+
+.site-bottom {
+  width: 100%;
+  padding: 80px 0;
+  display: flex;
+}
+
+.sitebottom__link {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+
+.sitebottom__link a {
+  text-decoration: none;
+  color: gray;
+}
+
+.sitebottom__text {
+  color: gray;
+}
+
+.sitebottom__text a {
+  color: #000;
+}
